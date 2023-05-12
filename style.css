@@ -28,11 +28,13 @@ nav {
     text-decoration: none;
     padding: 1.1rem;
 }
+
 .nav a:visited {
-    color:#eee;
-} 
+    color: #eee;
+}
+
 .nav a:hover {
-    color:#E9EEA2;
+    color: #E9EEA2;
 }
 
 header {
@@ -68,12 +70,64 @@ h1 {
     color: #E9EEA2;
 }
 
+h1.virgo {
+    color: #188FA7;
+}
+h2.virgo {
+    color: #188FA7;
+}
+
+h1.thique {
+    color: #4EA699;
+}
+h2.thique {
+    color: #4EA699;
+}
+
+h2.energy {
+    color: #E9EEA2;
+}
+
+h1.heated {
+    color: #FFCBDD;
+}
+h2.heated {
+    color: #FFCBDD;
+}
+
 h1.main-title {
     font-family: blenny, sans-serif;
     font-weight: 900;
     font-size: 30rem;
     line-height: 15rem;
     color: #71005F;
+    margin-left: 3 rem;
+}
+
+h1.main-title-virgo {
+    font-family: blenny, sans-serif;
+    font-weight: 900;
+    font-size: 30rem;
+    line-height: 15rem;
+    color: #188FA7;
+    margin-left: 3 rem;
+}
+
+h1.main-title-thique {
+    font-family: blenny, sans-serif;
+    font-weight: 900;
+    font-size: 30rem;
+    line-height: 15rem;
+    color: #4EA699;
+    margin-left: 3 rem;
+}
+
+h1.main-title-heated {
+    font-family: blenny, sans-serif;
+    font-weight: 900;
+    font-size: 30rem;
+    line-height: 15rem;
+    color: #FFCBDD;
     margin-left: 3 rem;
 }
 
@@ -111,12 +165,12 @@ section {
 }
 
 
-.sticky { 
-   position: sticky;
+.sticky {
+    position: sticky;
     top: 200px;
 }
 
-.darkerbg {
+.navbackground {
     background-color: #71005F;
 }
 
@@ -133,4 +187,5 @@ footer {
 footer div {
     flex: 1 20%;
     padding: 1.1rem;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+}
